@@ -1,0 +1,67 @@
+h1{ 
+    color: brown; 
+    
+ }
+section{
+   
+    width: 95%;  
+    margin-left: 2%;
+    margin-right: 2%; 
+ }
+ section .po{ 
+    display: flex; 
+    width: 95%;
+ }
+ section .text{ 
+    display: flex; 
+    
+ }
+ .po img{  
+    margin: 10px;
+    width: 25%;
+    display: flex; 
+    padding: 0 50px 0 50px;
+    
+    
+ }
+ .text p{  
+    color: black;
+    width: 25%;
+    display: flex; 
+    padding: 0 50px 0 50px;
+    border-right: 5px solid black;
+ }
+ .text p a{ 
+   color: red;  
+}
+
+ header{
+    width: 95%;  
+    margin-left: 2%;
+    margin-right: 2%; 
+ }
+ header .pa{ 
+    display: flex; 
+    width: 95%;
+ }
+ header .tex{ 
+    display: flex; 
+    
+ }
+ .pa img{  
+    margin: 10px;
+    width: 25%;
+    display: flex; 
+    padding: 0 50px 0 50px;
+    
+ }
+ .tex p{  
+    color: black;
+    width: 25%;
+    display: flex; 
+    padding: 0 50px 0 50px;
+    border-right: 5px solid black;
+ }
+ .tex p a{ 
+   color: red;  
+}

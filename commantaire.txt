@@ -1,0 +1,29 @@
+http://localhost/immobilier/login.php   // lien pour la page de connexion
+http://localhost/immobilier/maman.html  // lien pour la page INDEX
+
+ TEST avec nom_utilisation: BOBO et mot_de_Passe:123 POUR l'utilisation
+      avec nom_Administrateur: BABA et mot_de_Passe:1234 POUR l'administrateur
+
+nom_de_la base_de_données :   registration;
+
+CREATE TABLE `users` (
+  `id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  `username` varchar(100) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  `password` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+
+CREATE TABLE `clients` (
+  `id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  `nom` varchar(30) NOT NULL,
+  `prenom` varchar(25) NOT NULL,
+  `tel` int(12) NOT NULL,
+  `ville` varchar(20) NOT NULL,
+  `addresse` varchar(20) NOT NULL,
+  `superficie` int(25) NOT NULL,
+  `type` varchar(15) NOT NULL,
+  `email` varchar(30) NOT NULL,
+  `estimation` int(30) NOT NULL
+  ) 

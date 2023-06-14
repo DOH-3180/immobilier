@@ -1,0 +1,71 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    
+    }
+    header {
+      height: 350px;
+      width: 98%;
+      background-size: cover;
+     display: flex;
+   }
+ header .h{
+    height: 350px;
+    width: 100%;
+   display: flex;
+ }
+ header .h img{
+   height: 350px;
+   width: 100%;
+  display: flex;
+}
+
+ h1{
+color: red;
+margin: 10px;
+text-align: center;
+ }
+ h3{
+   border-bottom: 3px solid black;
+    margin: 10px;
+    text-align: center;
+     }
+ section{
+    display: flex;
+    width: 98%;
+    height: 100px;
+     }
+
+     section .k{
+        width: 45%;
+        padding: 8px 10px 8px 20px;
+  
+         }
+         section .y{
+            width: 44%;
+            padding: 8px 8px 8px 30px;
+       
+             }
+
+             section .k p{
+                width: 100%;
+                font-size: 20px;
+                margin: 20px;
+                
+               
+                 }
+
+                 section .y p{
+                    width: 100%;
+                    font-size: 20px;
+                    margin: 30px;
+                   
+                     }
+                     section .y ul li{
+                        width: 100%;
+                        font-size: 20px;
+                         color: green;
+                       
+                         }
+
+     

@@ -1,0 +1,236 @@
+body {
+  background: #1c242d;
+}
+.box {
+  border: 1px solid #c4c4c4;
+  padding: 30px 25px 10px 25px;
+  background: white;
+  margin: 30px auto;
+  width: 360px;
+}
+h1.box-logo a {
+  text-decoration:none;
+}
+h1.box-title {
+  color: #AEAEAE;
+  background: #f8f8f8;
+  font-weight: 300;
+  padding: 15px 25px;
+  line-height: 30px;
+  font-size: 25px;
+  text-align:center;
+  margin: -27px -26px 26px;
+}
+.box-button {
+  border-radius: 5px;
+  background: #d2483c;
+  text-align: center;
+  cursor: pointer;
+  font-size: 19px;
+  width: 100%;
+  height: 51px;
+  padding: 0;
+  color: #fff;
+  border: 0;
+  outline:0;
+}
+.box-register
+{
+  text-align:center;
+  margin-bottom:0px;
+}
+.box-register a
+{
+  text-decoration:none;
+  font-size:12px;
+  color:#666;
+}
+.box-input {
+  font-size: 14px;
+  background: #fff;
+  border: 1px solid #ddd;
+  margin-bottom: 25px;
+  padding-left:10px;
+  border-radius: 5px;
+  width: 347px;
+  height: 50px;
+}
+.box-input:focus {
+    outline: none;
+    border-color:#5c7186;
+}
+.sucess{
+	text-align: center;
+	color: white;
+}
+.sucess a {
+	text-decoration: none;
+	color: #58aef7;
+  font-size: 20px;
+}
+.sucess h1 {
+	font-size: 40px;
+	color: black;
+}
+.sucess p{
+	font-size: 30px;
+	color: black;
+}
+.pdf {
+	text-align: center;
+}
+.pdf a{
+	text-decoration: none;
+	color: white;
+  font-size: 20px;
+  background-color: blue;
+  border-radius: 2px;
+  
+
+}
+p.errorMessage {
+    background-color: #e66262;
+    border: #AA4502 1px solid;
+    padding: 5px 10px;
+    color: #FFFFFF;
+    border-radius: 3px;
+}
+
+
+
+
+
+body{
+  width: 50%;
+  font-family: arial;
+  margin: 5px auto;
+  padding: 20px;
+  background: #f4f7f8;
+  color: #1abc9c;
+}
+h1{
+  text-align: center;
+}
+p{
+  text-align: center;
+  
+}
+ p a{
+  text-align: center;
+  text-decoration: none;
+  color: red;
+}
+label{
+  width: 20%;
+  display: inline-block;
+  text-align: left;
+}
+fieldset{
+  border-radius: 8px;
+}
+legend{
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+input[type="text"], input[type="number"], input[type="email"], select[type="text"]{
+  border-radius: 5px;
+  padding: 10px;
+  width: 70%;
+  background-color: #fff;
+  margin: 10px;
+}
+
+input[type="submit"]{
+position: relative;
+margin-top: 9px;
+font-size: 18px;
+font-style: bold;
+width: 100%;
+border-radius: 3px;
+border: 1px solid #16a085;
+padding: 20px;
+}
+
+ul{
+  list-style-type: none;
+  padding: 20px;
+  overflow: hidden;
+  margin: 10px;
+  background-color: #333;
+}
+
+li{
+  display: inline;
+  padding: 10px;
+  margin: 20px;
+}
+li a{
+  color: white;
+  padding: 20px;
+  margin: 20px;
+}
+
+
+
+
+
+
+  h1{
+    text-align: center;
+  }
+  label{
+    width: 20%;
+    display: inline-block;
+    text-align: left;
+   
+  }
+  fieldset{
+    border-radius: 8px;
+  }
+  legend{
+    font-size: 1.4em;
+    margin-bottom: 10px;
+  }
+  input[type="text"], input[type="number"], input[type="email"], select[type="text"], input[type="tel"]{
+    border-radius: 5px;
+    padding: 10px;
+    width: 70%;
+    background-color: #fff;
+    margin: 10px;
+   
+  }
+  
+  input[type="submit"]{
+  position: relative;
+  margin-top: 9px;
+  font-size: 18px;
+  font-style: bold;
+  width: 100%;
+  border-radius: 3px;
+  border: 1px solid #16a085;
+  padding: 20px;
+  }
+  
+  ul{
+    list-style-type: none;
+    padding: 20px;
+    overflow: hidden;
+    margin: 10px;
+    background-color: #333;
+  }
+  
+  li{
+    display: inline;
+    padding: 10px;
+    margin: 20px;
+  }
+  li a{
+    color: white;
+    padding: 20px;
+    margin: 20px;
+  }
+
+  table{
+         align-content: center;
+         color: black;
+  }
